@@ -1,0 +1,19 @@
+server:
+  port: 8864
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.70.85:1521/xe
+    username: Nodir
+    password: Nodir123$
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    show-sql: true
+logging:
+  file:
+    name: log/telegram_exception.log
+
+telegram:
+  name: davrexceptionbot
+  token: 5711777294:AAFJeP0dYYqtMGaU46VB8yjkWGwkKmOZhso
+  groupId: -1001838981808
